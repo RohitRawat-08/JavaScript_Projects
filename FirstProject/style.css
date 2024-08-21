@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+.logo{
+    padding: 15px;
+    /* border: solid red ; */
+}
+
+ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(219, 217, 217);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-style: 8px;
+}
+
+
+main{
+    height: 570px;
+    padding: 5px;
+}
+
+.maincontent{
+    /* background-color: red; */
+    max-width: 600px;
+    padding: 20px 50px;
+}
+
+.maincontent h2{
+    padding-bottom: 15px;
+    /* border: solid burlywood; */
+}
+
+.maincontent form input:nth-child(2){
+    width: 230px;
+    /* border: solid red; */
+}
