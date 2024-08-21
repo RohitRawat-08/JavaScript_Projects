@@ -75,3 +75,10 @@ main{
     width: 230px;
     /* border: solid red; */
 }
+
+.btn{
+    color: white;
+    background-color: black;
+    padding: 2px;
+    cursor: pointer;
+}
