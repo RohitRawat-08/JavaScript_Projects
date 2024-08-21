@@ -71,9 +71,10 @@ main{
     /* border: solid burlywood; */
 }
 
-.maincontent form input:nth-child(2){
+.maincontent form input:first-child{
     width: 230px;
     /* border: solid red; */
+    padding: 4px;
 }
 
 .btn{
@@ -81,4 +82,13 @@ main{
     background-color: black;
     padding: 2px;
     cursor: pointer;
+}
+
+
+.resultscont{
+    padding: 10px 35px;
+}
+
+.resultscont div::first-letter{
+    text-transform: uppercase;
 }
