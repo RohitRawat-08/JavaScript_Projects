@@ -1,0 +1,23 @@
+
+@media  (max-width:400px) {
+
+    body{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* border: solid red; */
+        min-height: 770px;
+    }
+
+
+    .btn{
+        margin-top: 20px;
+    }
+
+    .maincontent h2{
+        font-size: 19px;
+    }
+
+
+}
+

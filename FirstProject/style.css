@@ -64,6 +64,7 @@ main{
     /* background-color: red; */
     max-width: 600px;
     padding: 20px 50px;
+    /* border: solid rebeccapurple; */
 }
 
 .maincontent h2{
@@ -87,8 +88,13 @@ main{
 
 .resultscont{
     padding: 10px 35px;
+    /* border:solid red; */
 }
 
 .resultscont div::first-letter{
     text-transform: uppercase;
+}
+
+footer{
+    /* border:solid red; */
 }
